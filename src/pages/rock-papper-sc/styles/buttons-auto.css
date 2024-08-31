@@ -1,0 +1,25 @@
+.play-button{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 25, 25);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.img{
+    width: 60%;
+}
+
+.reset-button .auto-play-button{
+    padding: 6px 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.emoji-layer{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
