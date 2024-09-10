@@ -1,0 +1,54 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.topic, .todo-list{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+}
+
+.todo-list{
+    grid-row-gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topic{
+    margin-bottom: 10px;
+}
+
+.deal-input{
+    width: 180px;
+    height: 30px;
+}
+
+.data-input{
+    width: 130px;
+}
+
+.button-add{
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delet-buuton{
+    background-color: rgb(209, 25, 25);
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 12px;
+    height: 30px
+}
+
+.todo-item{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
